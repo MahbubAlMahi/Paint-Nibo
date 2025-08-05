@@ -1,0 +1,29 @@
+/* Cart.css */
+.cart-container {
+  padding: 20px;
+}
+
+.cart-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: darkred;
+}
